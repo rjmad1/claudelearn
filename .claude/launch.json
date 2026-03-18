@@ -1,0 +1,35 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "rich-notepad",
+      "runtimeExecutable": "cmd.exe",
+      "runtimeArgs": ["/c", "cd /d C:\\Users\\rjkum\\Documents\\rich-notepad-app && npm run dev"],
+      "port": 5173
+    },
+    {
+      "name": "finwise-server",
+      "runtimeExecutable": "cmd.exe",
+      "runtimeArgs": ["/c", "cd /d C:\\Users\\rjkum\\finwise-project && npm run server"],
+      "port": 5000
+    },
+    {
+      "name": "finwise-client",
+      "runtimeExecutable": "cmd.exe",
+      "runtimeArgs": ["/c", "cd /d C:\\Users\\rjkum\\finwise-project && npm run client"],
+      "port": 3000
+    },
+    {
+      "name": "getting-started-app",
+      "runtimeExecutable": "cmd.exe",
+      "runtimeArgs": ["/c", "cd /d C:\\Users\\rjkum\\getting-started && npm run dev"],
+      "port": 3000
+    },
+    {
+      "name": "getting-started-docs",
+      "runtimeExecutable": "cmd.exe",
+      "runtimeArgs": ["/c", "cd /d C:\\Users\\rjkum\\getting-started && docker-compose up"],
+      "port": 8000
+    }
+  ]
+}

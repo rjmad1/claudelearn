@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm --version)",
+      "Bash(pip install:*)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(python -m pip install SuperClaude)",
+      "Bash(pip3 install:*)",
+      "Bash(python -m SuperClaude install)",
+      "Bash(superclaude install:*)",
+      "Bash(python -c \"import superclaude; print\\(superclaude.__file__\\)\")",
+      "Bash(python \"C:/Users/rjkum/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/superclaude.exe\" install)",
+      "Bash(python \"C:/Users/rjkum/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/superclaude/main.py\" install)",
+      "Bash(PYTHONUTF8=1 python \"C:/Users/rjkum/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/superclaude.exe\" install)",
+      "Bash(git clone:*)",
+      "Read(//c/Users/rjkum/.claude/skills/gstack/**)",
+      "Bash(./setup)",
+      "Bash(npm install:*)",
+      "Bash(curl -fsSL https://bun.sh/install)",
+      "Bash(bash)",
+      "Bash(bun --version)",
+      "Bash(bun --eval 'import { chromium } from \"\"playwright\"\"; try { const browser = await chromium.launch\\(\\); await browser.close\\(\\); console.log\\(\"\"OK\"\"\\); } catch\\(e\\) { console.error\\(e.message\\); }')",
+      "Bash(for skill:*)",
+      "Bash(do)",
+      "Bash(echo \"=== $skill ===\")",
+      "Read(//c/Users/rjkum/.claude/skills/gstack/$skill/**)",
+      "Bash(done)",
+      "Bash(mkdir -p /c/Users/rjkum/.claude/pluginsmarketplace/gstack/.claude-plugin)",
+      "Bash(mkdir -p /c/Users/rjkum/.claude/pluginsmarketplace/gstack/skills)",
+      "Bash(mkdir -p \"/c/Users/rjkum/.claude/pluginsmarketplace/gstack/skills/$skill\")",
+      "Bash(cp \"/c/Users/rjkum/.claude/skills/gstack/$skill/SKILL.md\" \"/c/Users/rjkum/.claude/pluginsmarketplace/gstack/skills/$skill/SKILL.md\")",
+      "Bash(echo \"copied: $skill\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
