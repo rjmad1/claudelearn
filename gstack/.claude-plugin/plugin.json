@@ -1,0 +1,11 @@
+{
+  "name": "gstack",
+  "version": "0.6.4.0",
+  "description": "Garry Tan's open-source software factory — turns Claude Code into a virtual engineering team with 13 specialist slash commands: CEO review, eng review, design review, QA, shipping, retrospectives, and more.",
+  "author": {
+    "name": "Garry Tan",
+    "url": "https://github.com/garrytan/gstack"
+  },
+  "license": "MIT",
+  "installInstructions": "Run: git clone https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup"
+}
